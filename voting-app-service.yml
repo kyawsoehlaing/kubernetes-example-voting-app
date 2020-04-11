@@ -9,8 +9,8 @@ spec:
   type: LoadBalancer
   ports:
     - port: 80
-    - targetPort: 80
-    selector:
+    targetPort: 80
+   selector:
     name: voting-app-pod
       app: demo-voting-app
 
